@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Load Data
-file_path = "/content/all_data.csv"
+file_path = "all_data.csv"
 df = pd.read_csv(file_path)
 
 # Pisahkan Data Harian dan Jam
