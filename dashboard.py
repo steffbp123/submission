@@ -1,9 +1,12 @@
-import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
+import streamlit as st
+from babel.numbers import format_currency
+sns.set(style='dark')
 
 # Load Data
-file_path = "/mnt/data/all_data.csv"
+file_path = "/content/all_data.csv"
 df = pd.read_csv(file_path)
 
 # Pisahkan Data Harian dan Jam
